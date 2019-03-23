@@ -1,0 +1,4 @@
+C:\Users\Programacion\Documents\FTorres\PruebaTecnica\carlostorres\obj\Debug\netcoreapp2.2\carlostorres.csprojAssemblyReference.cache
+C:\Users\Programacion\Documents\FTorres\PruebaTecnica\carlostorres\obj\Debug\netcoreapp2.2\carlostorres.csproj.CoreCompileInputs.cache
+C:\Users\Programacion\Documents\FTorres\PruebaTecnica\carlostorres\obj\Debug\netcoreapp2.2\carlostorres.AssemblyInfoInputs.cache
+C:\Users\Programacion\Documents\FTorres\PruebaTecnica\carlostorres\obj\Debug\netcoreapp2.2\carlostorres.AssemblyInfo.cs
