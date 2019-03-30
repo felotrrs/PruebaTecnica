@@ -6,7 +6,9 @@ namespace carlostorres.Interfaz
 {
     public interface IBitacora
     {
-         void MostrarDetalle ();
+        void MostrarDetalle (){
+             WriteLine(elemento.ToString());
+        }
          
     }
 }

@@ -1,10 +1,17 @@
 using carlostorres.Interfaz;
+using System;
 
 namespace carlostorres.Model
 
 {
     public class Submarino : Vehiculo, IBitacora
     {
+        
+        public Submarino () {}
+
+        public Submarino (float velocidadMaxima, float velocidadMinima, string marca, string modelo) =>
+            (base.VelocidadMaxima, base.VelocidadMinima, base.Marca, base.Modelo) = (velocidadMaxima, velocidadMinima, marca, modelo);
+
         private float profundidadMaxima;
         public float ProfundidadMaxima
         {
@@ -12,17 +19,22 @@ namespace carlostorres.Model
             set { profundidadMaxima = value;}
         }
 
-        public Submarino () {}
-
-        public Submarino (float velocidadMaxima, float velocidadMinima, string marca, string modelo) =>
-            (base.VelocidadMaxima, base.VelocidadMinima, base.Marca, base.Modelo) = (velocidadMaxima, velocidadMinima, marca, modelo);
-
         public void Sumergir(float metros) 
         {
         }
 
-        public void MostrarDetalle(){
-             Writeline ($"Profundidad maxima: {profundidadMaxima}" );
+        public override void Encender(){}
+
+        public override void Apagar(){}
+
+        public override string ToString()
+        {
+            return $"{{ Marca :{this.Marca}, Modelo : {this.Modelo}, Profundidad maxima : {this.profundidadMaxima} }} ";
+           
+        }
+
+        public  void MostrarDetalle(){
+            this.ToString();
         }
     }
 }
